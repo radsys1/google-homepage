@@ -1,0 +1,60 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lightgrey;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.area {
+    height: 30px;
+    width: 400px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.button {
+    margin-left: 10px;
+    height: 25px;
+    width: 80px;
+}
+
+#footer {
+    position: fixed;
+    top: -100px;
+    height: 40px;
+    background-color: lightgrey;
+}
+
